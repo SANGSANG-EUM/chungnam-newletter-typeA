@@ -1,44 +1,360 @@
 <!DOCTYPE html>
 <html lang="ko">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>맞춤메일 서비스</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <title>맞춤메일 서비스</title>
 
-    <!-- JS 파일 연결 -->
-    <script src="/source/plugin/jquery/jquery-1.12.4.min.js"></script>
-    <script src="/source/plugin/jquery/jquery-migrate-1.4.1.min.js"></script>
-    <!-- Plug-in, Library { -->
-    <script src="/source/plugin/prefixfree.min.js" defer></script>
-    <script src="/source/plugin/scrollbar/jquery.mCustomScrollbar.js" defer></script>
-    <script src="/source/plugin/jquery.matchHeight.js" defer></script>
-    <script src="/source/plugin/aos/aos.js" defer></script>
-    <script src="/source/plugin/scrollbar/lenis.js" defer></script>
-    <script src="/source/plugin/niceselect/jquery.nice-select.min.js" defer></script>
-    <script src="/source/plugin/swiper/swiper-bundle.min.js" defer></script>
-    <!-- } Plug-in, Library -->
-    <script src="/source/js/functions.js" defer></script>
-    <script src="/source/js/normal.js" defer></script>
+  <!-- Pretendard Font -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <!-- GmarketSans Font -->
+  <link rel="stylesheet" href="https://webfontworld.github.io/gmarket/GmarketSans.css">
 
-    <!-- CSS 파일 연결 -->
-    <!-- Plug-in, Library { -->
-    <link rel="stylesheet" href="/source/plugin/aos/aos.css">
-    <link rel="stylesheet" href="/source/plugin/scrollbar/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" href="/source/plugin/niceselect/nice-select.css">
-    <link rel="stylesheet" href="/source/plugin/swiper/swiper-bundle.min.css">
-    <!-- } Plug-in, Library -->
-    <link rel="stylesheet" href="/source/css/fonts.css">
-    <link rel="stylesheet" href="/source/css/common.css">
-    <link rel="stylesheet" href="/source/css/normal.css">
-    <link rel="stylesheet" href="/source/css/responsive.css">
+</head>
 
-  </head>
-
-  <body style="background-color: #eee;">
-    <div class="content">
-
-    </div>
-  </body>
+<body style="margin: 0; padding: 0;">
+  <table border="0" cellpadding="0" cellspacing="0" width="1200" style="margin: 0 auto; font-family: pretendard; padding: 0;">
+    <!-- 상단 Header { -->
+    <tr>
+      <td style="background: url('../source/img/logo_bg.png') no-repeat center/cover; text-align: center; padding-bottom: 38px;">
+        <a href="" target="_blank" style="display: flex; width: 230px; height: 80px; background-color: #fff; border-radius: 0 0 20px 20px; margin: 0 auto; align-items: center; justify-content: center;">
+          <img src="../source/img/logo.png" alt="충남도청">
+        </a>
+        <span style="font-family: 'GmarketSans'; font-weight: 700; font-size: 46px; color: #fff; display: block; padding: 37px 0 6px;">맞춤메일 서비스</span>
+        <span style="display: block; font-weight: 500; font-size: 20px; color: #fff;">2023.11.24. (금)</span>
+      </td>
+    </tr>
+    <!-- } 상단 Header -->
+    <!-- 새소식 { -->
+    <tr>
+      <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="1120" style="margin: 0 auto; padding: 42px 0 52px;">
+          <tr>
+            <td style="text-align: left;">
+              <span style="display: inline-block; vertical-align: middle; width: 4px; height: 28px; background-color: #e01b1b; margin-bottom: 5px; margin-right: 3px;"></span>
+              <span style="display: inline-block; vertical-align: middle; font-family: 'GmarketSans'; font-size: 30px; font-weight: 700; color: #0f0f0f;">새소식</span>
+            </td>
+            <td style="text-align: right;">
+              <a href="" target="_blank" style="list-style: none; font-family: pretendard; font-size: 0;">
+                <span style="display: inline-block; vertical-align: middle; font-weight: 400; font-size: 16px; color: #e01b1b;">새소식 더보기</span>
+                <span style="display: inline-block; vertical-align: middle; width: 28px; height: 28px; border-radius: 50%; background-color: #e01b1b; line-height: 40px; text-align: center; margin-left: 10px;">
+                  <img src="../source/img/icon-plus.png" alt="더보기">
+                </span>
+              </a>
+            </td>
+          </tr>
+          <!-- 게시글 1개 { -->
+          <tr style="font-family: pretendard;">
+            <td colspan="2" style="padding-top: 12px;">
+              <a href="" style="text-decoration: none; display: flex; align-items: center; justify-content: space-between; border: 1px solid #eee; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.05); padding: 22px 27px; background-color: #fff;">
+                <span style="width: calc(100% - 175px); display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 500; font-size: 18px; color: #333; max-width: calc(100% - 40px);">새소식 제목영역입니다. 새소식 제목영역입니다. 새소식 제목영역입니다. </span>
+                  <span style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; line-height: 36px; border: 1px solid #dddddd; border-radius: 50%; background-color: #fff; text-align: center;">
+                    <img src="../source/img/icon-board.png" alt="게시글">
+                  </span>
+                </span>
+                <span style="width: 175px; display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-right: 4px;">담당부서명</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #ddd;">|</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-left: 4px;">2023.11.29</span>
+                </span>
+              </a>
+            </td>
+          </tr>
+          <!-- } 게시글 1개 -->
+        </table>
+      </td>
+    </tr>
+    <!-- } 새소식 -->
+    <!-- 도정뉴스 { -->
+    <tr>
+      <td style="background-color: rgba(224,27,27,0.03);">
+        <table border="0" cellpadding="0" cellspacing="0" width="1120" style="margin: 0 auto; padding: 42px 0 36px;">
+          <colgroup>
+            <col width="33.33%">
+            <col width="33.33%">
+            <col width="33.33%">
+          </colgroup>
+          <tr>
+            <td style="text-align: left;" colspan="2">
+              <span style="display: inline-block; vertical-align: middle; width: 4px; height: 28px; background-color: #e01b1b; margin-bottom: 5px; margin-right: 3px;"></span>
+              <span style="display: inline-block; vertical-align: middle; font-family: 'GmarketSans'; font-size: 30px; font-weight: 700; color: #0f0f0f;">도정뉴스</span>
+            </td>
+            <td style="text-align: right;">
+              <a href="" target="_blank" style="list-style: none; font-family: pretendard; font-size: 0;">
+                <span style="display: inline-block; vertical-align: middle; font-weight: 400; font-size: 16px; color: #e01b1b;">도정뉴스 더보기</span>
+                <span style="display: inline-block; vertical-align: middle; width: 28px; height: 28px; border-radius: 50%; background-color: #e01b1b; line-height: 40px; text-align: center; margin-left: 10px;">
+                  <img src="../source/img/icon-plus.png" alt="더보기">
+                </span>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-top: 16px; text-align: left;">
+              <a href="" target="_blank" style="text-decoration: none; width: 350px; display: inline-block;">
+                <span style="display: block; border-radius: 10px; overflow: hidden; width: 350px; box-shadow: 0 0 20px rgba(0,0,0,0.1); font-size: 0;">
+                  <img src="../source/img/news_img.png" alt="뉴스 썸네일">
+                </span>
+                <span style="display: block; padding: 0 7px; padding-top: 17px; text-align: left;">
+                  <span style="font-weight: 500; font-size: 18px; color: #333; line-height: 1.44; display: block; white-space: normal; overflow: hidden; max-height: 2.88em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; margin-bottom: 12px;">도정뉴스 제목영역입니다. 도정뉴스 제목영역입니다.</span>
+                  <span style="display: block; margin-bottom: 16px;">
+                    <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-left: 4px;">2023.11.29</span>
+                    <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #ddd;">|</span>
+                    <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-right: 4px;">도정뉴스</span>
+                  </span>
+                  <span style="display: block; font-weight: 300; font-size: 16px; color: #666; line-height: 1.5; white-space: normal; overflow: hidden; max-height: 3em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                    도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다.도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다.
+                  </span>
+                </span>
+              </a>
+            </td>
+            <td style="padding-top: 16px; text-align: center;">
+              <a href="" target="_blank" style="text-decoration: none; width: 350px; display: inline-block;">
+                <span style="display: block; border-radius: 10px; overflow: hidden; width: 350px; box-shadow: 0 0 20px rgba(0,0,0,0.1); font-size: 0;">
+                  <img src="../source/img/news_img.png" alt="뉴스 썸네일">
+                </span>
+                <span style="display: block; padding: 0 7px; padding-top: 17px; text-align: left;">
+                  <span style="font-weight: 500; font-size: 18px; color: #333; line-height: 1.44; display: block; white-space: normal; overflow: hidden; max-height: 2.88em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; margin-bottom: 12px;">도정뉴스 제목영역입니다. 도정뉴스 제목영역입니다.</span>
+                  <span style="display: block; margin-bottom: 16px;">
+                    <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-left: 4px;">2023.11.29</span>
+                    <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #ddd;">|</span>
+                    <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-right: 4px;">도정뉴스</span>
+                  </span>
+                  <span style="display: block; font-weight: 300; font-size: 16px; color: #666; line-height: 1.5; white-space: normal; overflow: hidden; max-height: 3em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                    도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다.도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다.
+                  </span>
+                </span>
+              </a>
+            </td>
+            <td style="padding-top: 16px; text-align: right;">
+              <a href="" target="_blank" style="text-decoration: none; width: 350px; display: inline-block;">
+                <span style="display: block; border-radius: 10px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,0.1); font-size: 0;">
+                  <img src="../source/img/news_img.png" alt="뉴스 썸네일">
+                </span>
+                <span style="display: block; padding: 0 7px; padding-top: 17px; text-align: left;">
+                  <span style="font-weight: 500; font-size: 18px; color: #333; line-height: 1.44; display: block; white-space: normal; overflow: hidden; max-height: 2.88em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; margin-bottom: 12px;">도정뉴스 제목영역입니다. 도정뉴스 제목영역입니다.</span>
+                  <span style="display: block; margin-bottom: 16px;">
+                    <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-left: 4px;">2023.11.29</span>
+                    <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #ddd;">|</span>
+                    <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-right: 4px;">도정뉴스</span>
+                  </span>
+                  <span style="display: block; font-weight: 300; font-size: 16px; color: #666; line-height: 1.5; white-space: normal; overflow: hidden; max-height: 3em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                    도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다.도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다. 도정뉴스 내용영역입니다.
+                  </span>
+                </span>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- } 도정뉴스 -->
+    <!-- 행정자료 { -->
+    <tr>
+      <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="1120" style="margin: 0 auto; padding: 50px 0 55px;">
+          <tr>
+            <td style="text-align: left;">
+              <span style="display: inline-block; vertical-align: middle; width: 4px; height: 28px; background-color: #e01b1b; margin-bottom: 5px; margin-right: 3px;"></span>
+              <span style="display: inline-block; vertical-align: middle; font-family: 'GmarketSans'; font-size: 30px; font-weight: 700; color: #0f0f0f;">행정자료</span>
+            </td>
+            <td style="text-align: right;">
+              <a href="" target="_blank" style="list-style: none; font-family: pretendard; font-size: 0;">
+                <span style="display: inline-block; vertical-align: middle; font-weight: 400; font-size: 16px; color: #e01b1b;">행정자료 더보기</span>
+                <span style="display: inline-block; vertical-align: middle; width: 28px; height: 28px; border-radius: 50%; background-color: #e01b1b; line-height: 40px; text-align: center; margin-left: 10px;">
+                  <img src="../source/img/icon-plus.png" alt="더보기">
+                </span>
+              </a>
+            </td>
+          </tr>
+          <!-- 게시글 1개 { -->
+          <tr style="font-family: pretendard;">
+            <td colspan="2" style="padding-top: 12px;">
+              <a href="" style="text-decoration: none; display: flex; align-items: center; justify-content: space-between; border: 1px solid #eee; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.05); padding: 22px 27px; background-color: #fff;">
+                <span style="width: calc(100% - 175px); display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 500; font-size: 18px; color: #333; max-width: calc(100% - 40px);">새소식 제목영역입니다. 새소식 제목영역입니다. 새소식 제목영역입니다. </span>
+                  <span style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; line-height: 36px; border: 1px solid #dddddd; border-radius: 50%; background-color: #fff; text-align: center;">
+                    <img src="../source/img/icon-board.png" alt="게시글">
+                  </span>
+                </span>
+                <span style="width: 175px; display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-right: 4px;">담당부서명</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #ddd;">|</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-left: 4px;">2023.11.29</span>
+                </span>
+              </a>
+            </td>
+          </tr>
+          <!-- } 게시글 1개 -->
+          <tr style="font-family: pretendard;">
+            <td colspan="2" style="padding-top: 5px;">
+              <a href="" style="text-decoration: none; display: flex; align-items: center; justify-content: space-between; border: 1px solid #eee; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.05); padding: 22px 27px; background-color: #fff;">
+                <span style="width: calc(100% - 175px); display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 500; font-size: 18px; color: #333; max-width: calc(100% - 40px);">새소식 제목영역입니다. 새소식 제목영역입니다. 새소식 제목영역입니다. </span>
+                  <span style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; line-height: 36px; border: 1px solid #dddddd; border-radius: 50%; background-color: #fff; text-align: center;">
+                    <img src="../source/img/icon-board.png" alt="게시글">
+                  </span>
+                </span>
+                <span style="width: 175px; display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-right: 4px;">담당부서명</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #ddd;">|</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-left: 4px;">2023.11.29</span>
+                </span>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- } 행정자료 -->
+    <!-- 충남복지소식 { -->
+    <tr>
+      <td style="background-color: #f9f9f9;">
+        <table border="0" cellpadding="0" cellspacing="0" width="1120" style="margin: 0 auto; padding: 50px 0 55px;">
+          <tr>
+            <td style="text-align: left;">
+              <span style="display: inline-block; vertical-align: middle; width: 4px; height: 28px; background-color: #e01b1b; margin-bottom: 5px; margin-right: 3px;"></span>
+              <span style="display: inline-block; vertical-align: middle; font-family: 'GmarketSans'; font-size: 30px; font-weight: 700; color: #0f0f0f;">충남복지소식</span>
+            </td>
+            <td style="text-align: right;">
+              <a href="" target="_blank" style="list-style: none; font-family: pretendard; font-size: 0;">
+                <span style="display: inline-block; vertical-align: middle; font-weight: 400; font-size: 16px; color: #e01b1b;">충남복지소식 더보기</span>
+                <span style="display: inline-block; vertical-align: middle; width: 28px; height: 28px; border-radius: 50%; background-color: #e01b1b; line-height: 40px; text-align: center; margin-left: 10px;">
+                  <img src="../source/img/icon-plus.png" alt="더보기">
+                </span>
+              </a>
+            </td>
+          </tr>
+          <!-- 게시글 1개 { -->
+          <tr style="font-family: pretendard;">
+            <td colspan="2" style="padding-top: 12px;">
+              <a href="" style="text-decoration: none; display: flex; align-items: center; justify-content: space-between; border: 1px solid #eee; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.05); padding: 22px 27px; background-color: #fff;">
+                <span style="width: calc(100% - 175px); display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 500; font-size: 18px; color: #333; max-width: calc(100% - 40px);">새소식 제목영역입니다. 새소식 제목영역입니다. 새소식 제목영역입니다. </span>
+                  <span style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; line-height: 36px; border: 1px solid #dddddd; border-radius: 50%; background-color: #fff; text-align: center;">
+                    <img src="../source/img/icon-board.png" alt="게시글">
+                  </span>
+                </span>
+                <span style="width: 175px; display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-right: 4px;">담당부서명</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #ddd;">|</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-left: 4px;">2023.11.29</span>
+                </span>
+              </a>
+            </td>
+          </tr>
+          <!-- } 게시글 1개 -->
+          <tr style="font-family: pretendard;">
+            <td colspan="2" style="padding-top: 5px;">
+              <a href="" style="text-decoration: none; display: flex; align-items: center; justify-content: space-between; border: 1px solid #eee; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.05); padding: 22px 27px; background-color: #fff;">
+                <span style="width: calc(100% - 175px); display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 500; font-size: 18px; color: #333; max-width: calc(100% - 40px);">새소식 제목영역입니다. 새소식 제목영역입니다. 새소식 제목영역입니다. </span>
+                  <span style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; line-height: 36px; border: 1px solid #dddddd; border-radius: 50%; background-color: #fff; text-align: center;">
+                    <img src="../source/img/icon-board.png" alt="게시글">
+                  </span>
+                </span>
+                <span style="width: 175px; display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-right: 4px;">담당부서명</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #ddd;">|</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-left: 4px;">2023.11.29</span>
+                </span>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- } 충남복지소식 -->
+    <!-- 대기질정보 { -->
+    <tr>
+      <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="1120" style="margin: 0 auto; padding: 50px 0 55px;">
+          <tr>
+            <td style="text-align: left;">
+              <span style="display: inline-block; vertical-align: middle; width: 4px; height: 28px; background-color: #e01b1b; margin-bottom: 5px; margin-right: 3px;"></span>
+              <span style="display: inline-block; vertical-align: middle; font-family: 'GmarketSans'; font-size: 30px; font-weight: 700; color: #0f0f0f;">대기질정보</span>
+            </td>
+            <td style="text-align: right;">
+              <a href="" target="_blank" style="list-style: none; font-family: pretendard; font-size: 0;">
+                <span style="display: inline-block; vertical-align: middle; font-weight: 400; font-size: 16px; color: #e01b1b;">대기질정보 더보기</span>
+                <span style="display: inline-block; vertical-align: middle; width: 28px; height: 28px; border-radius: 50%; background-color: #e01b1b; line-height: 40px; text-align: center; margin-left: 10px;">
+                  <img src="../source/img/icon-plus.png" alt="더보기">
+                </span>
+              </a>
+            </td>
+          </tr>
+          <!-- 게시글 1개 { -->
+          <tr style="font-family: pretendard;">
+            <td colspan="2" style="padding-top: 12px;">
+              <a href="" style="text-decoration: none; display: flex; align-items: center; justify-content: space-between; border: 1px solid #eee; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.05); padding: 22px 27px; background-color: #fff;">
+                <span style="width: calc(100% - 175px); display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 500; font-size: 18px; color: #333; max-width: calc(100% - 40px);">새소식 제목영역입니다. 새소식 제목영역입니다. 새소식 제목영역입니다. </span>
+                  <span style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; line-height: 36px; border: 1px solid #dddddd; border-radius: 50%; background-color: #fff; text-align: center;">
+                    <img src="../source/img/icon-board.png" alt="게시글">
+                  </span>
+                </span>
+                <span style="width: 175px; display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-right: 4px;">담당부서명</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #ddd;">|</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-left: 4px;">2023.11.29</span>
+                </span>
+              </a>
+            </td>
+          </tr>
+          <!-- } 게시글 1개 -->
+          <tr style="font-family: pretendard;">
+            <td colspan="2" style="padding-top: 5px;">
+              <a href="" style="text-decoration: none; display: flex; align-items: center; justify-content: space-between; border: 1px solid #eee; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.05); padding: 22px 27px; background-color: #fff;">
+                <span style="width: calc(100% - 175px); display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 500; font-size: 18px; color: #333; max-width: calc(100% - 40px);">새소식 제목영역입니다. 새소식 제목영역입니다. 새소식 제목영역입니다. </span>
+                  <span style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; line-height: 36px; border: 1px solid #dddddd; border-radius: 50%; background-color: #fff; text-align: center;">
+                    <img src="../source/img/icon-board.png" alt="게시글">
+                  </span>
+                </span>
+                <span style="width: 175px; display: inline-block;">
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-right: 4px;">담당부서명</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #ddd;">|</span>
+                  <span style="display: inline-block; vertical-align: middle; font-weight: 300; font-size: 16px; color: #888; padding-left: 4px;">2023.11.29</span>
+                </span>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- } 대기질정보 -->
+    <!-- 하단 Footer { -->
+    <tr>
+      <td style="background-color: #333;">
+        <table border="0" cellpadding="0" cellspacing="0" width="1120" style="margin: 0 auto; text-align: center; padding: 20px 0 21px;">
+          <tr>
+            <td>
+              <img src="../source/img/ft_logo.png" alt="충청남도">
+            </td>
+          </tr>
+          <tr>
+            <td style="font-weight: 300; font-size: 16px; color: #b0b0b0; padding: 16px 0 21px;">
+              본 메일은 충청남도 맞춤메일 정보를 설정한 사용자에게 전송되는 이메일입니다. 수신을 원치 않으시면, 마이페이지 맞춤메일 설정을 통해 변경하실 수 있습니다.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="" target="_blank" style="display: inline-block; width: 180px; border-radius: 5px; background-color: #555; text-decoration: none; padding: 10.5px 0; font-size: 0;">
+                <span style="display: inline-block; vertical-align: middle; margin-right: 10px;">
+                  <img src="../source/img/icon-config.png" alt="맞춤메일 설정 변경">
+                </span>
+                <span style="display: inline-block; vertical-align: middle; font-weight: 400; font-size: 16px; color: #fff;">
+                  맞춤메일 설정 변경
+                </span>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
 
 </html>
